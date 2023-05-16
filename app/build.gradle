@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.odev_7'
+    namespace 'com.not_defteri'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.odev_7"
+        applicationId "com.not_defteri"
         minSdk 24
         targetSdk 33
         versionCode 1

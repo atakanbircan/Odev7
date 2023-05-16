@@ -1,4 +1,4 @@
-package com.odev_7
+package com.not_defteri
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

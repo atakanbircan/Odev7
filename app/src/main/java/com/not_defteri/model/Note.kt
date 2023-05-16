@@ -1,4 +1,4 @@
-package com.odev_7
+package com.not_defteri.model
 
 data class Note(
     val nid: Int,

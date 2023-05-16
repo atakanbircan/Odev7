@@ -1,4 +1,4 @@
-package com.odev_7
+package com.not_defteri
 
 import org.junit.Test
 

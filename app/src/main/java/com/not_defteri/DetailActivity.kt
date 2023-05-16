@@ -1,10 +1,9 @@
-package com.odev_7
+package com.not_defteri
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import com.odev_7.databinding.ActivityDetailBinding
+import com.not_defteri.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
     lateinit var db:DB

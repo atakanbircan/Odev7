@@ -1,4 +1,4 @@
-package com.odev_7
+package com.not_defteri
 
 import android.app.DatePickerDialog
 import android.content.Intent
@@ -10,7 +10,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
 import android.widget.Toast
-import com.odev_7.databinding.ActivityMainBinding
+import com.not_defteri.adapter.MyAdapter
+import com.not_defteri.databinding.ActivityMainBinding
+
 import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
@@ -31,15 +33,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        btnSave = findViewById(R.id.btnSave)
-        btnDate = findViewById(R.id.btnDate)
+        btnSave = binding.btnSave
+        btnDate = binding.btnDate
 
         txtTitle = binding.editTxtTitle
         txtDetail = binding.editTxtDetail
         listView = binding.listView
-
-
-
 
 
     }
@@ -70,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         btnSave.setOnClickListener {
             if ( selectDate != "" ) {
-                //var status = db.addNote("Tarih Notu", "Tarih Detay", selectDate)
+
                 var status = db.addNote("${txtTitle.text.toString()}","${txtDetail.text.toString()}",selectDate)
                 Log.d("status", status.toString())
                 selectDate = ""
@@ -94,7 +93,7 @@ class MainActivity : AppCompatActivity() {
 
         adapter1.notifyDataSetChanged()
         listView.adapter=adapter1
-        //adapter1=MyAdapter(this,db.allNote())
+
         listView.setOnItemClickListener { adapterView, view, i, l ->
             val intent = Intent(this@MainActivity,DetailActivity::class.java)
 

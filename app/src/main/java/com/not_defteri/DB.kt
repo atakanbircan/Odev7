@@ -1,11 +1,10 @@
-package com.odev_7
+package com.not_defteri
 
 import android.content.ContentValues
 import android.content.Context
-import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import android.util.Log
+import com.not_defteri.model.Note
 
 
 class DB(context: Context) : SQLiteOpenHelper(context, DBName, null, Version  ) {
