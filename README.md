@@ -1,4 +1,4 @@
-# Odev7
+# SQLite Not Defteri App
 ##SQLite ile local veritabanına veri ekler, siler ve okur.İki ekrandan oluşur. 
 #
 #
