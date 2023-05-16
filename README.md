@@ -3,8 +3,14 @@
 #
 #
 #
-![appPhoto](https://github.com/atakanbircan/Odev7/blob/master/app/src/main/res/drawable/img1.jpeg)
+![appPhoto](https://github.com/atakanbircan/Odev7/blob/master/app/src/main/res/drawable/image3.jpeg)
 #
 #
 #
-![appPhoto](https://github.com/atakanbircan/Odev7/blob/master/app/src/main/res/drawable/img2.jpeg)
+![appPhoto](https://github.com/atakanbircan/Odev7/blob/master/app/src/main/res/drawable/image2.jpeg)
+
+#
+#
+#
+![appPhoto](https://github.com/atakanbircan/Odev7/blob/master/app/src/main/res/drawable/image1.jpeg)
+
